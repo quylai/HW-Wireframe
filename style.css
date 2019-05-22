@@ -1,0 +1,76 @@
+body{
+    background-color: gray;
+    color: gray;
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    padding: 35px 0;
+    margin: 10px 0;
+}
+
+
+nav {
+    background-color: white;
+    padding: 35px 0;
+    margin: 10px 0;
+}
+
+section {
+    float: left;
+    background-color: white;
+    width: 510px;
+    padding:  60px 0;
+    margin-right: 10px;
+}
+
+aside {
+    float: right;
+    margin: 0 auto;
+    background-color: white;
+    width: 430px;
+    margin-left: 10px;
+    padding: 150px 0;
+    /* min-height: 300px; */
+}
+
+article {
+    margin: 30px 10px 0 10px;
+    padding: 10px 15px;
+    background-color: gray;
+    color: white;
+}
+
+article > h2 {
+   background-color: white;
+   color: gray;
+}
+
+article > p {
+    background-color: white;
+    color: gray;
+}
+
+.content {
+    margin: 10px 0;
+}
+
+.clear {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    background-color: white;
+    padding: 35px 0;
+    margin: 10px 0;
+}
+
+
+/*
+stop at 
+16:52 - lines off, got -1, from 37 backward
+12:39
+*/
